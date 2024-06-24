@@ -1,0 +1,41 @@
+{
+    "paths": {
+        "2": {
+            "rules": [
+                "attachment_A2 <= 0.50 and status_label_B1 <= 0.50",
+                "attachment_A2 <= 0.50 and status_label_B1 > 0.50 and attachment_A1 <= 0.50"
+            ],
+            "overlapped_rules": [
+                "attachment_A2 <= 0.50 and status_label_B1 > 0.50 and attachment_A1 > 0.50"
+            ]
+        },
+        "1": {
+            "rules": [
+                "attachment_A2 > 0.50 and status_label_B1 > 0.50"
+            ],
+            "overlapped_rules": [
+                "attachment_A2 <= 0.50 and status_label_B1 > 0.50 and attachment_A1 > 0.50"
+            ]
+        },
+        "3": {
+            "rules": [
+                "attachment_A2 > 0.50 and status_label_B1 <= 0.50"
+            ],
+            "overlapped_rules": []
+        }
+    },
+    "metadata": {
+        "guard": "attachment_A2 <= 0.50 and status_label_B1 > 0.50 and attachment_A1 > 0.50",
+        "x_missclassified_as_y": [
+            [
+                2,
+                1
+            ]
+        ],
+        "subset_indexes": [
+            41
+        ],
+        "subset_size": 1,
+        "fraction_over_subset": 1.0
+    }
+}

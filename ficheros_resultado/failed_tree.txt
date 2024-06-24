@@ -1,0 +1,13 @@
+|--- attachment_A2 <= 0.50
+|   |--- status_label_B1 <= 0.50
+|   |   |--- class: 2
+|   |--- status_label_B1 >  0.50
+|   |   |--- attachment_A1 <= 0.50
+|   |   |   |--- class: 2
+|   |   |--- attachment_A1 >  0.50
+|   |   |   |--- class: 1
+|--- attachment_A2 >  0.50
+|   |--- status_label_B1 <= 0.50
+|   |   |--- class: 3
+|   |--- status_label_B1 >  0.50
+|   |   |--- class: 1
