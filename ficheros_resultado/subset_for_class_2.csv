@@ -1,2 +1,2 @@
 attachment_A1,attachment_A2,status_label_B1,ground_truth,prediction,decision_path
-1,0,1,2,1,attachment_A2 <= 0.50 and status_label_B1 > 0.50 and attachment_A1 > 0.50
+1,0,1,2,1,attachment_A2 <= 0.50 and attachment_A1 > 0.50 and status_label_B1 > 0.50
